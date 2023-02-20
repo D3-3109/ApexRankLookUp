@@ -1,21 +1,9 @@
 package bean
 
 data class ApexResponseMap(
-    val arenas: Arenas,
-    val arenasRanked: ArenasRanked,
     val battle_royale: BattleRoyale,
-    val control: Control,
+    val ltm: LTM,
     val ranked: Ranked
-)
-
-data class Arenas(
-    val current: Current,
-    val next: Next
-)
-
-data class ArenasRanked(
-    val current: CurrentX,
-    val next: NextX
 )
 
 data class BattleRoyale(
@@ -23,7 +11,7 @@ data class BattleRoyale(
     val next: NextXX
 )
 
-data class Control(
+data class LTM(
     val current: CurrentXXX,
     val next: NextXXX
 )
