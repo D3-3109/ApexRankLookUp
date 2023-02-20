@@ -41,7 +41,7 @@ fun mapPictureMode(res: ApexResponseMap, image: ApexImage){
     val buffer:BufferedImage = ImageCache("buffer","https://apexlegendsstatus.com/assets/maps/Arena_Encore.png")
     val battleRoyale: BufferedImage = ImageCache("mapbr_"+res.battle_royale.current.code,res.battle_royale.current.asset)
     val ranked:BufferedImage = ImageCache("mapbr_"+res.ranked.current.code,res.ranked.current.asset)
-    val ltm: BufferedImage = ImageCache("mapar_"+res.ltm.current.code,res.arenas.current.asset)
+    val ltm: BufferedImage = ImageCache("mapar_"+res.ltm.current.code,res.ltm.current.asset)
     //val control:BufferedImage = ImageIO.read(URL(res.control.current.asset))
 
     //渲染背景
