@@ -21,58 +21,6 @@ data class Ranked(
     val next: NextXXXX
 )
 
-data class Current(
-    val DurationInMinutes: Int,
-    val DurationInSecs: Int,
-    val asset: String,
-    val code: String,
-    val end: Int,
-    val map: String,
-    val readableDate_end: String,
-    val readableDate_start: String,
-    val remainingMins: Int,
-    val remainingSecs: Int,
-    val remainingTimer: String,
-    val start: Int
-)
-
-data class Next(
-    val DurationInMinutes: Int,
-    val DurationInSecs: Int,
-    val code: String,
-    val end: Int,
-    val map: String,
-    val readableDate_end: String,
-    val readableDate_start: String,
-    val start: Int
-)
-
-data class CurrentX(
-    val DurationInMinutes: Int,
-    val DurationInSecs: Int,
-    val asset: String,
-    val code: String,
-    val end: Int,
-    val map: String,
-    val readableDate_end: String,
-    val readableDate_start: String,
-    val remainingMins: Int,
-    val remainingSecs: Int,
-    val remainingTimer: String,
-    val start: Int
-)
-
-data class NextX(
-    val DurationInMinutes: Int,
-    val DurationInSecs: Int,
-    val code: String,
-    val end: Int,
-    val map: String,
-    val readableDate_end: String,
-    val readableDate_start: String,
-    val start: Int
-)
-
 data class CurrentXX(
     val DurationInMinutes: Int,
     val DurationInSecs: Int,
